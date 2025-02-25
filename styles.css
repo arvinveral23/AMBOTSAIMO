@@ -1,0 +1,123 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-image: url('img/anime.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .nav-right a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #1abc9c;
+  }
+  
+  .background {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 50px;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    top: 150px;
+  }
+  
+  h1 {
+    font-size: 40px;
+    color: #00ff00;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #00ff00;
+  }
+  
+  .buttons a {
+    padding: 10px 20px;
+    background-color: #00bfff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buttons a:hover {
+    background-color: #009acd;
+  }
+  
+  .content-section {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 50px;
+    border-radius: 10px;
+    width: 50%;
+    text-align: left;
+    margin: 50px auto;
+    color: white;
+  }
+  
+  .Name {
+    padding: 10px;
+    margin: 3px;
+    border-radius: 8px;
+    border: solid black 1px;
+    width: 42%;
+  }
+  
+  .subject {
+    padding: 10px;
+    margin: 4px;
+    border-radius: 8px;
+    border: solid black 1px;
+    width: 91%;
+    height: 10px;
+  }
+  
+  .kontak {
+    border-radius: 8px;
+    border: solid black 1px;
+    width: 96%;
+    height: 40px;
+    padding: 10px;
+    margin: 4px;
+    cursor: pointer;
+  }
+  
+  .kontak:hover {
+    opacity: 0.3;
+  }
+  
+  .kontak:active {
+    background-color: gray;
+    color: white;
+  }
+  
+  .footer {
+    background-color: rgb(187, 143, 206);
+    padding: 15px;
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
